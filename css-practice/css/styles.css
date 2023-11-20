@@ -1,0 +1,38 @@
+body {
+    color: black;
+    background-color:linen;
+}
+html {
+    font-size: 1rem;
+}
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.box {
+    display: block;
+    margin: auto;
+    border: 1px solid black;
+    width: min(80%, 600px);
+    box-shadow: 0px 0px 20px;
+    border-radius: 20px;
+}
+#lists {
+    height: 100px 50px 100px 50px;
+    margin-top: 2.5rem;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+    list-style-position: inside;
+}
+.recipe {
+    font-size: 1.7rem;
+    padding-left: 5px;
+}
+a {
+    color: black;
+    font-size: 2rem;
+}
